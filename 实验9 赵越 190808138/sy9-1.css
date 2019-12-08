@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ul,li,h1{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+body{
+	margin: 0 auto;
+	width: 900px;
+	background-color: #fff;
+	font: 100%/1.4 helvetica, arial, sans-serif;
+}
+
+header{
+	background: #ccc;
+	padding: 20px;
+}
+
+nav{
+	float: left;
+	width: 900px;
+	height: 50px;
+	background-color: #999;
+	line-height: 50px;
+}
+
+nav li a{
+	display: block;
+	float: left;
+	padding: 1px 10px;
+}
+
+nav li a:hover{
+	background-color: #A2A2A2;
+	color: aqua;
+}
+
+section{
+	float: left;
+	width: 660px;
+	height: 260px;
+	background-color: #ccc;
+}
+
+section h2{
+	display: inline-block;
+	margin: 12px 0 0 22px;
+}
+
+article{
+	float: left;
+	width: 560px;
+	margin: 0 0 0 30px;
+	padding: 20px 0;
+}
+
+aside{
+	float: right;
+	width: 240px;
+	height: 260px;
+	background-color: #aaa;
+}
+
+aside li:hover a{
+	color: aqua;
+}
+
+aside li:hover{
+	background-color: #A2A2A2;
+}
+
+aside a{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 50px;
+	padding: 20px;
+}
+
+footer{
+	clear: both;
+	background: #999;
+	text-align: center;
+	padding: 20px;
+	height: 1%;
+}
+
+footer ul li{
+	display: inline;
+	margin: 0 15px;
+}
+
+
